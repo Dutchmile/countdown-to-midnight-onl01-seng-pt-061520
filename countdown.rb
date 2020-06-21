@@ -1,6 +1,6 @@
 #write your code here
 
-def countdown
+def countdown(seconds_left)
   seconds_left = 12
   while seconds_left > 0
     puts "#{seconds_left} SECOND(S)!"
@@ -9,7 +9,7 @@ def countdown
   end
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(seconds_left)
   pause = 1
   seconds_left = 12
   while seconds_left > 0
