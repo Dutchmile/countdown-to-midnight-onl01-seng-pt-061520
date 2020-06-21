@@ -2,6 +2,7 @@
 
 def countdown
   pause = 1
+  seconds_left = 12
   while seconds_left > 0
     puts "#{seconds_left} SECONDS!"
     sleep(pause)
